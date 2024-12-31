@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { StyledEmail, StyledGithub, StyledLinkedIn } from "./styles";
 
 const ContactMe = () => {
