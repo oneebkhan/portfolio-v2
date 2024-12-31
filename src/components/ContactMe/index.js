@@ -5,7 +5,7 @@ import { StyledEmail, StyledGithub, StyledLinkedIn } from "./styles";
 const ContactMe = () => {
   return (
     <section
-      className="mx-auto max-w-7xl px-10 pb-20 pt-48 text-white"
+      className="mx-auto max-w-7xl px-10 pb-[10vh] pt-[40vh] text-white"
       id={`contact-me`}
     >
       <div className="mx-auto max-w-[100rem]">
