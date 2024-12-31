@@ -1,0 +1,71 @@
+/* ------------------ Fonts Start ----------------- */
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  font-weight: 100;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Thin.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Light.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Medium.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Bold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Black.ttf) format("opentype");
+}
+
+/* Fjalla One */
+@font-face {
+  font-family: "Fjalla One";
+  font-weight: 400;
+  src: local("FjallaOne"),
+    url(./assets/fonts/Fjalla_One/FjallaOne-Regular.ttf) format("opentype");
+}
+
+/* ------------------ Fonts End ----------------- */
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+}
+
+:root {
+  color-scheme: dark;
+}
