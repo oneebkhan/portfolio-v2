@@ -4,7 +4,7 @@ import AnimatedMarquee from "../AnimatedMarquee";
 
 const SkillsSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-10 py-48 text-white" id={`skills-section`}>
+    <section className="mx-auto max-w-7xl px-10 py-48 mt-48 text-white" id={`skills-section`}>
       <div className="mx-auto max-w-[100rem]">
         <motion.div
           initial={{ y: 48, opacity: 0 }}
