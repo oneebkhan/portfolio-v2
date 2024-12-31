@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.94bd27d1.css",
-    "main.js": "/portfolio-v2/static/js/main.9de839f1.js",
+    "main.js": "/portfolio-v2/static/js/main.538c08eb.js",
     "static/js/453.906b0208.chunk.js": "/portfolio-v2/static/js/453.906b0208.chunk.js",
     "static/media/flavorwikiOperator.png": "/portfolio-v2/static/media/flavorwikiOperator.8307ac67115a448b52f4.png",
     "static/media/hero.png": "/portfolio-v2/static/media/hero.2f79863db3a021f93dd7.png",
     "static/media/flavorwikiBussiness.png": "/portfolio-v2/static/media/flavorwikiBussiness.6f912cd7cd0c66c4ebb7.png",
+    "static/media/flavorwikiTesterDashboard.png": "/portfolio-v2/static/media/flavorwikiTesterDashboard.c2a4bed9d401d22817c4.png",
     "static/media/flavorwikiIntro.png": "/portfolio-v2/static/media/flavorwikiIntro.e32e0d6449b86cac5d95.png",
     "static/media/fyp2.png": "/portfolio-v2/static/media/fyp2.40b2443d6143fc1d66f6.png",
     "static/media/fypAdmin.png": "/portfolio-v2/static/media/fypAdmin.7f61a8e55c61f1712473.png",
-    "static/media/flavorwikiTesterDashboard.png": "/portfolio-v2/static/media/flavorwikiTesterDashboard.a032ee3082c4f8200a35.png",
     "static/media/fypDistributor.png": "/portfolio-v2/static/media/fypDistributor.d6492f258d4f6de66f2b.png",
     "static/media/flavorwikiStats.png": "/portfolio-v2/static/media/flavorwikiStats.71f3d7c5ee87da3599a5.png",
     "static/media/fyp1.png": "/portfolio-v2/static/media/fyp1.c47f6a56038ab131117e.png",
@@ -30,11 +30,11 @@
     "static/media/logo.png": "/portfolio-v2/static/media/logo.bf7860bec1a06e33b3f3.png",
     "index.html": "/portfolio-v2/index.html",
     "main.94bd27d1.css.map": "/portfolio-v2/static/css/main.94bd27d1.css.map",
-    "main.9de839f1.js.map": "/portfolio-v2/static/js/main.9de839f1.js.map",
+    "main.538c08eb.js.map": "/portfolio-v2/static/js/main.538c08eb.js.map",
     "453.906b0208.chunk.js.map": "/portfolio-v2/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94bd27d1.css",
-    "static/js/main.9de839f1.js"
+    "static/js/main.538c08eb.js"
   ]
 }
