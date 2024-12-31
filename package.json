@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://oneebkhan.github.io/portfolio",
+  "homepage": "https://oneebkhan.github.io",
   "private": true,
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
