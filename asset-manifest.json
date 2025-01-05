@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.e50e04d7.css",
-    "main.js": "/portfolio-v2/static/js/main.e20f35f8.js",
+    "main.css": "/portfolio-v2/static/css/main.638ae0bc.css",
+    "main.js": "/portfolio-v2/static/js/main.bc689ffa.js",
     "static/js/453.906b0208.chunk.js": "/portfolio-v2/static/js/453.906b0208.chunk.js",
     "static/media/flavorwikiOperator.png": "/portfolio-v2/static/media/flavorwikiOperator.8307ac67115a448b52f4.png",
     "static/media/hero.png": "/portfolio-v2/static/media/hero.2f79863db3a021f93dd7.png",
@@ -29,12 +29,12 @@
     "static/media/Oneeb_Khan_SoftwareEngineer.pdf": "/portfolio-v2/static/media/Oneeb_Khan_SoftwareEngineer.8b2b894c9cfcd8f76619.pdf",
     "static/media/logo.png": "/portfolio-v2/static/media/logo.bf7860bec1a06e33b3f3.png",
     "index.html": "/portfolio-v2/index.html",
-    "main.e50e04d7.css.map": "/portfolio-v2/static/css/main.e50e04d7.css.map",
-    "main.e20f35f8.js.map": "/portfolio-v2/static/js/main.e20f35f8.js.map",
+    "main.638ae0bc.css.map": "/portfolio-v2/static/css/main.638ae0bc.css.map",
+    "main.bc689ffa.js.map": "/portfolio-v2/static/js/main.bc689ffa.js.map",
     "453.906b0208.chunk.js.map": "/portfolio-v2/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50e04d7.css",
-    "static/js/main.e20f35f8.js"
+    "static/css/main.638ae0bc.css",
+    "static/js/main.bc689ffa.js"
   ]
 }
