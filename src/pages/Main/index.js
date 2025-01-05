@@ -19,7 +19,7 @@ const Main = () => {
       <Layout>
         <SmoothScrollHero
           pictures={[code1, code2, code3, code4]}
-          mainPicture={`url(${hero})`}
+          mainPicture={hero}
         />
         <SkillsSection />
         <List
@@ -50,11 +50,22 @@ const Main = () => {
                 "Used knowledge of JavaScript to integrate an API of 'Jitsi Meet', get the video of the user and display it in the browser to create a type of online meeting platform. Integrated a 'Siamese' AI model to recognize faces in the meeting for security purposes, as to not let in unauthorized personnel, using Tensor flow",
               ],
             },
+            {
+              title: "SquareNex",
+              subTitle: "Software Engineer (Flutter) - Part-Time",
+              date: "03/2020 - 06/2021",
+              moreInfo: "Lahore",
+              workDone: [
+                "Worked on application design UI/UX using Adobe XD to make visually appealing and functional designs for mobile applications.",
+                "Made applications using flutter, firebase and NoSQL local databases (hive) to make visually appealing and responsive applications.",
+                "Made an application from scratch geared towards teaching children the alphabet, basic math etc. that had a reward based learning model.",
+              ],
+            },
           ]}
         />
         <Projects />
-        <ContactMe/>
-        <Footer/>
+        <ContactMe />
+        <Footer />
       </Layout>
     </React.Fragment>
   );

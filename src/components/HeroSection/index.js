@@ -31,9 +31,11 @@ const getRandomizedProps = () => {
 };
 
 export const SmoothScrollHero = ({ pictures = [], mainPicture }) => {
-  return <section id='home'>
-    <Hero mainPicture={mainPicture} pictures={pictures} />
-  </section>
+  return (
+    <section id="home">
+      <Hero mainPicture={mainPicture} pictures={pictures} />
+    </section>
+  );
 };
 
 const Hero = ({ pictures, mainPicture }) => {
@@ -77,19 +79,26 @@ const CenterImage = ({ mainPicture }) => {
           overflow: "hidden",
         }}
       >
-        <motion.div
-          className="sticky top-0 h-screen max-w-[100vw]"
+        <motion.img
+          className="sticky top-0 h-screen w-[100vw]"
+          id="hero-image"
+          src={mainPicture}
+          onLoad={() => {
+            document.getElementById("hero-image").style.filter =
+              "opacity(100%)";
+          }}
           style={{
             objectFit: "cover",
             clipPath,
-            backgroundSize: "cover",
+            filter: "opacity(0%)",
             overflow: "hidden",
             maxWidth: "100vw",
             scale,
             opacity,
-            backgroundImage: mainPicture,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
+            position: 'center',
+            transitionProperty: "filter",
+            transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+            transitionDuration: "500ms",
           }}
         />
       </motion.div>
@@ -99,7 +108,9 @@ const CenterImage = ({ mainPicture }) => {
             className="text-5xl font-light sm:font-normal xl:text-8xl lg:text-7xl md:text-5xl"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.3)" }}
           >
-            I'm Oneeb<br />Khan
+            I'm Oneeb
+            <br />
+            Khan
           </h1>
         </motion.div>
       </div>
@@ -109,7 +120,9 @@ const CenterImage = ({ mainPicture }) => {
             className="text-5xl font-light sm:font-normal xl:text-8xl lg:text-7xl md:text-5xl text-right"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.3)" }}
           >
-            Software<br />Engineer
+            Software
+            <br />
+            Engineer
           </h1>
         </motion.div>
       </div>
