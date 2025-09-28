@@ -4,7 +4,10 @@ import AnimatedMarquee from "../AnimatedMarquee";
 
 const SkillsSection = () => {
   return (
-    <section className="mx-auto max-w-7xl px-10 py-48 mt-48 text-white" id={`skills-section`}>
+    <section
+      className="mx-auto max-w-7xl px-10 py-48 mt-48 text-white"
+      id={`skills-section`}
+    >
       <div className="mx-auto max-w-[100rem]">
         <motion.div
           initial={{ y: 48, opacity: 0 }}
@@ -28,7 +31,7 @@ const SkillsSection = () => {
           <div></div>
           <div className="max-w-4xl md:pr-5 text-zinc-300">
             Hi, I'm Oneeb Khan — a passionate Full-Stack JavaScript Developer
-            with 3+ years of experience. I specialize in crafting visually
+            with 4+ years of experience. I specialize in crafting visually
             appealing, user-centric digital experiences that not only look great
             but function seamlessly. My expertise lies in transforming ideas
             into practical, working applications using modern JavaScript
@@ -49,29 +52,21 @@ const SkillsSection = () => {
           text={[
             "React",
             "Nextjs",
-            "Redux",
-            "Javascript",
-            "Typescript",
             "Nodejs",
             "Nestjs",
             "Expressjs",
             "SailsJS",
+            "Koa",
             "Django",
-            "GraphQL",
-            "MongoDB",
-            "PostgreSQL",
-            "SQL",
-            "HTML",
-            "CSS",
-            "Tailwind",
-            "Rest",
             "Flutter",
-            "Firebase",
+            "GraphQL",
             "D3JS",
-            "Styled Components",
             "Python",
             "Dart",
-            "Git",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Typescript",
           ]}
         />
       </motion.div>
@@ -85,6 +80,33 @@ const SkillsSection = () => {
         <AnimatedMarquee
           keyName="reverseMarquee"
           reverse={true}
+          text={[
+            "MongoDB",
+            "PostgreSQL",
+            "SQL",
+            "Rest",
+            "Firebase",
+            "Git",
+            "Jest",
+            "Cypress",
+            "Snowflake",
+            "DBT",
+            "Schadcn",
+            "Styled Components",
+            "Tailwind",
+            "Redux",
+          ]}
+        />
+      </motion.div>
+
+      <motion.div
+        initial={{ y: 48, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ ease: "easeInOut", duration: 1 }}
+        key="marquee"
+      >
+        <AnimatedMarquee
+          keyName="marquee"
           text={[
             "Frontend Development",
             "Backend Development",

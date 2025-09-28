@@ -1,13 +1,23 @@
 import React from "react";
 import { Card, Carousel } from "../Carousel";
 import flavorwikiBusiness from "../../assets/images/flavorwikiBussiness.png";
+import burqPng from "../../assets/images/burq-png.png";
 import git from "../../assets/images/git.jpg";
 import fyp from "../../assets/images/fyp.png";
+import Burq from "./Burq";
 import Flavorwiki from "./Flavorwiki";
 import ManyMore from "./ManyMore";
 import MedicineAuthenticator from "./MedicineAuthenticator";
 
 const data = [
+  {
+    category:
+      "Last-mile delivery solutions with useful insights, based in San Francisco",
+    title: "Burq",
+    src: burqPng,
+    link: "https://www.burqup.com",
+    content: <Burq />,
+  },
   {
     category: "A survey platform that provides rewards and statitical insights",
     title: "Flavorwiki",
@@ -16,7 +26,8 @@ const data = [
     content: <Flavorwiki />,
   },
   {
-    category: "The final year project I built that is used to authenticate medicine",
+    category:
+      "The final year project I built that is used to authenticate medicine",
     title: "Medicine Authenticator.",
     link: "https://github.com/oneebkhan/FYP_Medicine-Authenticator/releases/tag/v1.0",
     src: fyp,

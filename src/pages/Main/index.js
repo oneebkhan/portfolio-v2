@@ -27,9 +27,22 @@ const Main = () => {
           listTitle="Experience"
           items={[
             {
+              title: "Burq",
+              subTitle: "Full-Stack Software Engineer (JS)",
+              date: "04/2025 - Present",
+              moreInfo: "Lahore",
+              workDone: [
+                "Developed and maintained scalable web applications using React, Node.js, and Koa",
+                "Built RESTful APIs and integrated third-party services to support logistics and delivery operations",
+                "Wrote comprehensive test suites with Jest on teh backend and Cypress on the frontend to ensure reliability and high code coverage",
+                "Designed and optimized database schemas in PostgreSQL and worked with  Snowflake for data analytics",
+                "Worked on implementing dbt database solutions to further improve analytics (charts) loading times by upto 2x",
+              ],
+            },
+            {
               title: "Gigalabs",
-              subTitle: "Software Engineer (JS)",
-              date: "09/2021 - Present",
+              subTitle: "Full-Stack Software Engineer (JS)",
+              date: "09/2021 - 04/2025",
               moreInfo: "Lahore",
               workDone: [
                 "Responsible for full stack website development using diﬀerent JavaScript frameworks.",
