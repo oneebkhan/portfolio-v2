@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.638ae0bc.css",
-    "main.js": "/portfolio-v2/static/js/main.bc689ffa.js",
+    "main.js": "/portfolio-v2/static/js/main.983b10f1.js",
     "static/js/453.906b0208.chunk.js": "/portfolio-v2/static/js/453.906b0208.chunk.js",
     "static/media/flavorwikiOperator.png": "/portfolio-v2/static/media/flavorwikiOperator.8307ac67115a448b52f4.png",
     "static/media/hero.png": "/portfolio-v2/static/media/hero.2f79863db3a021f93dd7.png",
     "static/media/flavorwikiBussiness.png": "/portfolio-v2/static/media/flavorwikiBussiness.6f912cd7cd0c66c4ebb7.png",
     "static/media/flavorwikiTesterDashboard.png": "/portfolio-v2/static/media/flavorwikiTesterDashboard.c2a4bed9d401d22817c4.png",
+    "static/media/burq-png.png": "/portfolio-v2/static/media/burq-png.53afdab8fa012ac8fcc8.png",
     "static/media/flavorwikiIntro.png": "/portfolio-v2/static/media/flavorwikiIntro.e32e0d6449b86cac5d95.png",
     "static/media/fyp2.png": "/portfolio-v2/static/media/fyp2.40b2443d6143fc1d66f6.png",
     "static/media/fypAdmin.png": "/portfolio-v2/static/media/fypAdmin.7f61a8e55c61f1712473.png",
@@ -14,27 +15,32 @@
     "static/media/flavorwikiStats.png": "/portfolio-v2/static/media/flavorwikiStats.71f3d7c5ee87da3599a5.png",
     "static/media/fyp1.png": "/portfolio-v2/static/media/fyp1.c47f6a56038ab131117e.png",
     "static/media/fyp.png": "/portfolio-v2/static/media/fyp.a5a319b54896498f4d1f.png",
+    "static/media/burq-driver.png": "/portfolio-v2/static/media/burq-driver.a85b2ff4a5eaee88796e.png",
     "static/media/FjallaOne-Regular.ttf": "/portfolio-v2/static/media/FjallaOne-Regular.34fddd1e53b238e6d80f.ttf",
+    "static/media/burq-orders.png": "/portfolio-v2/static/media/burq-orders.3ff991afc1317c6447a6.png",
     "static/media/Poppins-Thin.ttf": "/portfolio-v2/static/media/Poppins-Thin.59ff6a729e30c99b478e.ttf",
     "static/media/Poppins-Light.ttf": "/portfolio-v2/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/portfolio-v2/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Medium.ttf": "/portfolio-v2/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "static/media/Poppins-Bold.ttf": "/portfolio-v2/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Poppins-Black.ttf": "/portfolio-v2/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/burq-analytics.png": "/portfolio-v2/static/media/burq-analytics.6b006e42ff06ebf28754.png",
     "static/media/code4.jpg": "/portfolio-v2/static/media/code4.9dd1c17ad9799e55acf1.jpg",
+    "static/media/burq-workflows.png": "/portfolio-v2/static/media/burq-workflows.60f8ebc92c76f131696c.png",
     "static/media/code3.jpg": "/portfolio-v2/static/media/code3.ad4da442f45afbcd2ec4.jpg",
     "static/media/code2.jpg": "/portfolio-v2/static/media/code2.e323dd3d0c1f8a921e1d.jpg",
     "static/media/code1.jpg": "/portfolio-v2/static/media/code1.69d22a2eee91278e7655.jpg",
     "static/media/git.jpg": "/portfolio-v2/static/media/git.82492f61fc67133e5821.jpg",
-    "static/media/Oneeb_Khan_SoftwareEngineer.pdf": "/portfolio-v2/static/media/Oneeb_Khan_SoftwareEngineer.8b2b894c9cfcd8f76619.pdf",
+    "static/media/Oneeb_Khan_SoftwareEngineer.pdf": "/portfolio-v2/static/media/Oneeb_Khan_SoftwareEngineer.46138c8e4f5b7007677d.pdf",
     "static/media/logo.png": "/portfolio-v2/static/media/logo.bf7860bec1a06e33b3f3.png",
+    "static/media/burq-svg.svg": "/portfolio-v2/static/media/burq-svg.96dc9d2152df9623d5b3c608030250fd.svg",
     "index.html": "/portfolio-v2/index.html",
     "main.638ae0bc.css.map": "/portfolio-v2/static/css/main.638ae0bc.css.map",
-    "main.bc689ffa.js.map": "/portfolio-v2/static/js/main.bc689ffa.js.map",
+    "main.983b10f1.js.map": "/portfolio-v2/static/js/main.983b10f1.js.map",
     "453.906b0208.chunk.js.map": "/portfolio-v2/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.638ae0bc.css",
-    "static/js/main.bc689ffa.js"
+    "static/js/main.983b10f1.js"
   ]
 }
